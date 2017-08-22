@@ -1,6 +1,15 @@
 class Reporter(object):
+    "Builds report message for given debts dict"
 
     def report(self, people_debts):
+        """Builds report message for given debts dict.
+        
+        Args:
+            people_debts: Dict where key is person and value if array of debts.
+
+        Returns:
+            Human understandable string describing people debts.
+        """
         keys_sorted = sorted(people_debts.keys())
         report = []
         for person in keys_sorted:
