@@ -56,6 +56,3 @@ class TestSplitter(unittest.TestCase):
             sorted(split["Nickita"]),
             sorted([("Adilet", 1074.2), ("Furkhat", 1800), ("Dina", 953.6)])
         )
-
-if __name__ == '__main__':
-    unittest.main()
